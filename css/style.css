@@ -49,13 +49,41 @@ html {
   font-size: 62.5%;
 }
 
-/* line 9, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/base/_base.sass */
+@media only screen and (max-width: 1240px) {
+  /* line 6, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/base/_base.sass */
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media only screen and (max-width: 910px) {
+  /* line 6, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/base/_base.sass */
+  html {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* line 6, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/base/_base.sass */
+  html {
+    font-size: 30%;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  /* line 6, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/base/_base.sass */
+  html {
+    font-size: 75%;
+  }
+}
+
+/* line 18, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/base/_base.sass */
 body {
   padding: 5rem;
   background-color: #ffffff;
 }
 
-/* line 13, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/base/_base.sass */
+/* line 22, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/base/_base.sass */
 .container {
   background-color: #F7F7F7;
   position: relative;
@@ -93,7 +121,23 @@ body {
   animation-fill-mode: backwards;
 }
 
-/* line 26, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/base/_typography.sass */
+@media only screen and (max-width: 1240px) {
+  /* line 12, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/base/_typography.sass */
+  .title-first__main {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (max-width: 910px) {
+  /* line 12, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/base/_typography.sass */
+  .title-first__main {
+    font-size: 3.6rem;
+    letter-spacing: 0.5rem;
+    margin-bottom: 0;
+  }
+}
+
+/* line 33, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/base/_typography.sass */
 .title-first__secondary {
   display: block;
   font-weight: 100;
@@ -109,7 +153,23 @@ body {
   animation-fill-mode: backwards;
 }
 
-/* line 40, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/base/_typography.sass */
+@media only screen and (max-width: 1240px) {
+  /* line 33, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/base/_typography.sass */
+  .title-first__secondary {
+    font-size: 3.5rem;
+    margin-bottom: 3.5rem;
+  }
+}
+
+@media only screen and (max-width: 910px) {
+  /* line 33, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/base/_typography.sass */
+  .title-first__secondary {
+    font-size: 3.2rem;
+    letter-spacing: .2rem;
+  }
+}
+
+/* line 53, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/base/_typography.sass */
 .title-secondary {
   text-align: center;
   display: inline-block;
@@ -124,18 +184,32 @@ body {
   backface-visibility: hidden;
 }
 
-/* line 52, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/base/_typography.sass */
+@media only screen and (max-width: 1240px) {
+  /* line 53, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/base/_typography.sass */
+  .title-secondary {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 910px) {
+  /* line 53, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/base/_typography.sass */
+  .title-secondary {
+    letter-spacing: .6rem;
+  }
+}
+
+/* line 69, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/base/_typography.sass */
 .title-secondary:hover {
   transform: translateY(-0.5rem);
   text-shadow: 0rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
 }
 
-/* line 55, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/base/_typography.sass */
+/* line 72, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/base/_typography.sass */
 .title-secondary_white {
   color: #ffffff;
 }
 
-/* line 58, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/base/_typography.sass */
+/* line 75, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/base/_typography.sass */
 .title-third {
   font-size: 2rem;
   letter-spacing: .2rem;
@@ -143,12 +217,26 @@ body {
   font-weight: 700;
 }
 
-/* line 64, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/base/_typography.sass */
+@media only screen and (max-width: 1240px) {
+  /* line 75, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/base/_typography.sass */
+  .title-third {
+    font-size: 1.8rem;
+  }
+}
+
+/* line 83, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/base/_typography.sass */
 .paragraph {
   font-size: 1.6rem;
   letter-spacing: .2rem;
   line-height: 140%;
   font-weight: 400;
+}
+
+@media only screen and (max-width: 1240px) {
+  /* line 83, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/base/_typography.sass */
+  .paragraph {
+    font-size: 1.5rem;
+  }
 }
 
 /* line 1, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/base/_utilities.sass */
@@ -171,9 +259,23 @@ body {
   margin-bottom: 5rem;
 }
 
-/* line 15, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/base/_utilities.sass */
+@media only screen and (max-width: 910px) {
+  /* line 11, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/base/_utilities.sass */
+  .margin-bottom-50px {
+    margin-bottom: 8rem;
+  }
+}
+
+/* line 16, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/base/_utilities.sass */
 .margin-bottom-80px {
   margin-bottom: 8rem;
+}
+
+@media only screen and (max-width: 910px) {
+  /* line 16, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/base/_utilities.sass */
+  .margin-bottom-80px {
+    margin-bottom: 5rem;
+  }
 }
 
 /* line 5, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_button.sass */
@@ -191,25 +293,40 @@ body {
   border: none;
 }
 
-/* line 15, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_button.sass */
+@media only screen and (max-width: 1240px) {
+  /* line 5, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_button.sass */
+  .btn, .btn:link, .btn:visited {
+    font-size: 1.8rem;
+    padding: 1.5rem 3.7rem;
+  }
+}
+
+@media only screen and (max-width: 910px) {
+  /* line 5, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_button.sass */
+  .btn, .btn:link, .btn:visited {
+    padding: 2rem 5rem;
+  }
+}
+
+/* line 19, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_button.sass */
 .btn:hover {
   transform: translateY(-0.4rem);
   box-shadow: 0px 0.4rem 0.4rem rgba(0, 0, 0, 0.3);
 }
 
-/* line 18, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_button.sass */
+/* line 22, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_button.sass */
 .btn:hover::after {
   opacity: 0;
   transform: scaleX(1.5) scaleY(1.7);
 }
 
-/* line 21, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_button.sass */
+/* line 25, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_button.sass */
 .btn:active {
   transform: translateY(-0.2rem);
   box-shadow: 0px 0.4rem 0.4rem rgba(0, 0, 0, 0.3);
 }
 
-/* line 24, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_button.sass */
+/* line 28, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_button.sass */
 .btn::after {
   content: "";
   background: #ffffff;
@@ -224,19 +341,19 @@ body {
   transition: all .4s;
 }
 
-/* line 36, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_button.sass */
+/* line 40, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_button.sass */
 .btn_animated {
   animation: BtnToUp 1.2s ease-out .7s;
   animation-fill-mode: backwards;
 }
 
-/* line 41, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_button.sass */
+/* line 45, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_button.sass */
 .btn_brown, .btn_brown:link, .btn_brown:visited {
   background: #A14F03;
   color: #ffffff;
 }
 
-/* line 45, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_button.sass */
+/* line 49, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_button.sass */
 .btn_brown::after {
   background: #A14F03;
 }
@@ -345,7 +462,14 @@ body {
   position: relative;
 }
 
-/* line 7, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
+@media only screen and (max-width: 900px), (hover: none) {
+  /* line 1, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
+  .card-tour {
+    height: auto;
+  }
+}
+
+/* line 9, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
 .card-tour__side {
   height: 50rem;
   transition: .7s all ease-out;
@@ -360,46 +484,86 @@ body {
   overflow: hidden;
 }
 
-/* line 22, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
+@media only screen and (max-width: 900px), (hover: none) {
+  /* line 9, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
+  .card-tour__side {
+    height: auto;
+    position: relative;
+  }
+}
+
+@media only screen and (max-width: 900px), (hover: none) {
+  /* line 25, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
+  .card-tour__side_front {
+    padding-bottom: 13rem;
+  }
+}
+
+/* line 29, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
 .card-tour__side_back {
   background: green;
   transform: rotateY(180deg);
   background: linear-gradient(120deg, #BA8554, #A14F03);
 }
 
-/* line 28, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
+@media only screen and (max-width: 900px), (hover: none) {
+  /* line 29, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
+  .card-tour__side_back {
+    transform: rotateY(0deg);
+    padding: 5rem;
+    padding-top: 12rem;
+    margin-top: -11rem;
+    clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 100%);
+  }
+}
+
+/* line 42, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
 .card-tour:hover .card-tour__side_front {
   transform: rotateY(-180deg);
 }
 
-/* line 30, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
+@media only screen and (max-width: 900px), (hover: none) {
+  /* line 42, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
+  .card-tour:hover .card-tour__side_front {
+    transform: rotateY(0deg);
+  }
+}
+
+/* line 46, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
 .card-tour:hover .card-tour__side_back {
   transform: rotateY(0deg);
 }
 
-/* line 33, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
+/* line 49, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
 .card-tour__img {
   background-blend-mode: hard-light;
   height: 21rem;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
 }
 
-/* line 37, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
+/* line 53, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
 .card-tour__img_1 {
   background: #BA8554 url(../img/card-1.jpg) center/cover no-repeat;
 }
 
-/* line 39, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
+/* line 55, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
 .card-tour__img_2 {
   background: #BA8554 url(../img/card-2.jpg) center/cover no-repeat;
 }
 
-/* line 41, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
+/* line 57, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
 .card-tour__img_3 {
   background: #BA8554 url(../img/card-3.jpg) center/cover no-repeat;
 }
 
-/* line 44, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
+@media only screen and (max-width: 900px), (hover: none) {
+  /* line 49, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
+  .card-tour__img {
+    height: 30rem;
+  }
+}
+
+/* line 62, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
 .card-tour__title {
   font-size: 2.8rem;
   letter-spacing: .2rem;
@@ -411,13 +575,21 @@ body {
   right: 0rem;
 }
 
-/* line 53, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
+@media only screen and (max-width: 910px) {
+  /* line 62, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
+  .card-tour__title {
+    top: 25rem;
+    font-size: 3.8rem;
+  }
+}
+
+/* line 75, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
 .card-tour__span {
   background: linear-gradient(90deg, #BA8554, #A14F03);
   padding: 1rem 2rem .3rem 2rem;
 }
 
-/* line 57, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
+/* line 79, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
 .card-tour__span_2 {
   position: absolute;
   top: 3.4rem;
@@ -426,7 +598,14 @@ body {
   padding-top: 0rem;
 }
 
-/* line 65, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
+@media only screen and (max-width: 910px) {
+  /* line 79, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
+  .card-tour__span_2 {
+    top: 4.4rem;
+  }
+}
+
+/* line 89, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
 .card-tour__descr ul {
   list-style: none;
   margin: 0 auto;
@@ -434,7 +613,7 @@ body {
   text-align: center;
 }
 
-/* line 71, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
+/* line 95, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
 .card-tour__descr ul li {
   font-size: 1.6rem;
   letter-spacing: .2rem;
@@ -443,12 +622,26 @@ body {
   display: inline-block;
 }
 
-/* line 77, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
+/* line 101, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
 .card-tour__descr ul li:not(:last-child) {
   margin-bottom: 2rem;
 }
 
-/* line 80, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
+@media only screen and (max-width: 1240px) {
+  /* line 95, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
+  .card-tour__descr ul li {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 910px) {
+  /* line 95, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
+  .card-tour__descr ul li {
+    font-size: 2rem;
+  }
+}
+
+/* line 109, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
 .card-tour__backSide-box {
   position: absolute;
   top: 50%;
@@ -456,7 +649,18 @@ body {
   transform: translate(-50%, -50%);
 }
 
-/* line 85, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
+@media only screen and (max-width: 900px), (hover: none) {
+  /* line 109, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
+  .card-tour__backSide-box {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    transform: translate(0%, 0%);
+    text-align: center;
+  }
+}
+
+/* line 121, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
 .card-tour__text {
   margin-bottom: 8rem;
   letter-spacing: .2rem;
@@ -465,13 +669,13 @@ body {
   color: #ffffff;
 }
 
-/* line 91, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
+/* line 127, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
 .card-tour__text_1 {
   font-size: 1.6rem;
   font-weight: 300;
 }
 
-/* line 95, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
+/* line 131, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_tour-card.sass */
 .card-tour__text_2 {
   font-size: 6rem;
   font-weight: 500;
@@ -487,12 +691,28 @@ body {
   transform: skewX(330deg);
 }
 
-/* line 8, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_feedBack-card.sass */
+@media only screen and (max-width: 910px) {
+  /* line 1, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_feedBack-card.sass */
+  .feedBack-card {
+    transform: skewX(350deg);
+    padding: 3rem;
+  }
+}
+
+/* line 11, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_feedBack-card.sass */
 .feedBack-card > * {
   transform: skewX(-330deg);
 }
 
-/* line 10, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_feedBack-card.sass */
+@media only screen and (max-width: 910px) {
+  /* line 11, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_feedBack-card.sass */
+  .feedBack-card > * {
+    transform: skewX(-350deg);
+    text-align: center;
+  }
+}
+
+/* line 16, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_feedBack-card.sass */
 .feedBack-card__img {
   width: 15rem;
   height: 15rem;
@@ -506,14 +726,23 @@ body {
   position: relative;
 }
 
-/* line 21, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_feedBack-card.sass */
+@media only screen and (max-width: 910px) {
+  /* line 16, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_feedBack-card.sass */
+  .feedBack-card__img {
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+  }
+}
+
+/* line 31, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_feedBack-card.sass */
 .feedBack-card__img img {
   height: 100%;
   transform: scale(1.2);
   transition: all .5s;
 }
 
-/* line 25, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_feedBack-card.sass */
+/* line 36, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_feedBack-card.sass */
 .feedBack-card__name {
   font-size: 2rem;
   letter-spacing: .2rem;
@@ -528,13 +757,13 @@ body {
   transition: all .5s;
 }
 
-/* line 38, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_feedBack-card.sass */
+/* line 49, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_feedBack-card.sass */
 .feedBack-card:hover .feedBack-card__name {
   transform: translate(-50%, -50%);
   opacity: 1;
 }
 
-/* line 41, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_feedBack-card.sass */
+/* line 52, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_feedBack-card.sass */
 .feedBack-card:hover img {
   transform: scale(1);
   filter: blur(0.3rem) brightness(70%);
@@ -571,24 +800,51 @@ body {
   overflow: hidden;
 }
 
-/* line 8, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_form.sass */
+@media only screen and (max-width: 910px) {
+  /* line 1, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_form.sass */
+  .book {
+    background: linear-gradient(115deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 507%, rgba(186, 133, 80, 0.3) 57%, rgba(161, 79, 3, 0.3) 100%), url(../img/bg-form.jpg) center/cover no-repeat;
+  }
+}
+
+/* line 10, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_form.sass */
 .form {
-  width: 60%;
+  width: 70%;
   padding-top: 5rem;
   padding-left: 5rem;
 }
 
-/* line 12, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_form.sass */
+@media only screen and (max-width: 910px) {
+  /* line 10, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_form.sass */
+  .form {
+    width: 100%;
+    padding-top: 3rem;
+    padding-left: 3rem;
+  }
+}
+
+/* line 19, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_form.sass */
 .form__group:not(:last-child) {
   margin-bottom: 2rem;
 }
 
-/* line 14, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_form.sass */
+/* line 21, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_form.sass */
 .form__group:nth-child(4) {
   margin-bottom: 4rem;
 }
 
-/* line 19, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_form.sass */
+@media only screen and (max-width: 1240px) {
+  /* line 24, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_form.sass */
+  .form__group:not(:last-child) {
+    margin-bottom: 0.3rem;
+  }
+  /* line 26, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_form.sass */
+  .form__group:nth-child(4) {
+    margin-bottom: 2.5rem;
+  }
+}
+
+/* line 32, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_form.sass */
 .form__input {
   font-size: 1.6rem;
   letter-spacing: .2rem;
@@ -602,19 +858,27 @@ body {
   width: 75%;
 }
 
-/* line 30, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_form.sass */
+@media only screen and (max-width: 910px) {
+  /* line 32, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_form.sass */
+  .form__input {
+    width: 90%;
+    box-shadow: 0px 0.4rem 0.4rem rgba(0, 0, 0, 0.3);
+  }
+}
+
+/* line 46, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_form.sass */
 .form__input:focus {
   outline: none;
   border-bottom: .3rem solid #66D763;
   box-shadow: 0px 0.4rem 0.4rem rgba(0, 0, 0, 0.3);
 }
 
-/* line 34, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_form.sass */
+/* line 50, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_form.sass */
 .form__input:focus:invalid {
   border-bottom: .3rem solid #D76363;
 }
 
-/* line 37, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_form.sass */
+/* line 53, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_form.sass */
 .form__label {
   font-size: 1.6rem;
   letter-spacing: .2rem;
@@ -625,32 +889,48 @@ body {
   transition: .2s all;
 }
 
-/* line 48, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_form.sass */
+/* line 64, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_form.sass */
 .form__input:placeholder-shown + .form__label {
   opacity: 0;
   visibility: none;
   transform: translateY(-3rem);
 }
 
-/* line 53, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_form.sass */
+/* line 69, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_form.sass */
 .form__group-radio {
-  width: 40%;
   display: inline-block;
 }
 
-/* line 57, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_form.sass */
+/* line 71, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_form.sass */
+.form__group-radio:not(:last-child) {
+  margin-right: 2rem;
+}
+
+@media only screen and (max-width: 1240px) {
+  /* line 69, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_form.sass */
+  .form__group-radio {
+    display: block;
+  }
+}
+
+/* line 75, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_form.sass */
+.form__group-radio:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+/* line 78, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_form.sass */
 .form__input-radio {
   display: none;
 }
 
-/* line 60, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_form.sass */
+/* line 81, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_form.sass */
 .form__label-radio {
   cursor: pointer;
   position: relative;
   padding-left: 4rem;
 }
 
-/* line 64, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_form.sass */
+/* line 86, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_form.sass */
 .form__button-radio {
   height: 3rem;
   width: 3rem;
@@ -662,7 +942,7 @@ body {
   top: -0.4rem;
 }
 
-/* line 73, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_form.sass */
+/* line 95, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_form.sass */
 .form__button-radio::after {
   content: "";
   display: block;
@@ -678,7 +958,7 @@ body {
   transition: .2s all;
 }
 
-/* line 87, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_form.sass */
+/* line 109, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/components/_form.sass */
 .form__input-radio:checked ~ .form__label-radio .form__button-radio::after {
   opacity: 1;
 }
@@ -694,6 +974,13 @@ body {
   margin-bottom: 8rem;
 }
 
+@media only screen and (max-width: 910px) {
+  /* line 4, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_grid.sass */
+  .row:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+}
+
 /* line 8, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/abstracts/_mixins.sass */
 .row::after {
   content: "";
@@ -701,44 +988,88 @@ body {
   clear: both;
 }
 
-/* line 8, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_grid.sass */
+@media only screen and (max-width: 1240px) {
+  /* line 1, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_grid.sass */
+  .row {
+    max-width: 90.1rem;
+  }
+}
+
+@media only screen and (max-width: 910px) {
+  /* line 1, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_grid.sass */
+  .row {
+    max-width: 60rem;
+  }
+}
+
+/* line 14, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_grid.sass */
 .col-1-of-2 {
   width: calc((100% - 6rem) / 2);
 }
 
-/* line 11, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_grid.sass */
+/* line 17, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_grid.sass */
 .col-1-of-3 {
   width: calc((100% - 2 * 6rem) / 3);
 }
 
-/* line 14, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_grid.sass */
+@media only screen and (max-width: 1240px) {
+  /* line 17, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_grid.sass */
+  .col-1-of-3 {
+    width: calc((100% - 2 * 2rem) / 3);
+  }
+}
+
+/* line 22, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_grid.sass */
 .col-2-of-3 {
   width: calc( 2 * ((100% - 2 * 6rem) / 3));
 }
 
-/* line 17, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_grid.sass */
+/* line 25, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_grid.sass */
 .col-1-of-4 {
   width: calc((100% - 3 * 6rem) / 4);
 }
 
-/* line 20, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_grid.sass */
+@media only screen and (max-width: 1240px) {
+  /* line 25, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_grid.sass */
+  .col-1-of-4 {
+    width: calc((100% - 3 * 2rem) / 4);
+  }
+}
+
+/* line 30, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_grid.sass */
 .col-2-of-4 {
   width: calc( 2 * ((100% - 3 * 6rem) / 4) + 6rem);
 }
 
-/* line 23, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_grid.sass */
+/* line 33, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_grid.sass */
 .col-3-of-4 {
   width: calc( 3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem);
 }
 
-/* line 27, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_grid.sass */
+/* line 37, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_grid.sass */
 [class^="col-"] {
   float: left;
 }
 
-/* line 29, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_grid.sass */
+/* line 39, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_grid.sass */
 [class^="col-"]:not(:last-child) {
   margin-right: 6rem;
+}
+
+@media only screen and (max-width: 1240px) {
+  /* line 42, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_grid.sass */
+  [class^="col-"]:not(:last-child) {
+    margin-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 910px) {
+  /* line 37, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_grid.sass */
+  [class^="col-"] {
+    width: 100%;
+    margin-right: 0 !important;
+    margin-bottom: 4rem;
+  }
 }
 
 /* line 1, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_header.sass */
@@ -768,6 +1099,13 @@ body {
   text-align: center;
 }
 
+@media only screen and (max-width: 1240px) {
+  /* line 12, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_header.sass */
+  .header__box {
+    top: 50%;
+  }
+}
+
 /* line 1, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_footer.sass */
 .footer {
   padding: 8rem;
@@ -795,7 +1133,22 @@ body {
   margin-right: 5rem;
 }
 
-/* line 14, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_footer.sass */
+@media only screen and (max-width: 1240px) {
+  /* line 14, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_footer.sass */
+  .footer__item:not(:last-child) {
+    margin-right: 1.6rem;
+  }
+}
+
+@media only screen and (max-width: 910px) {
+  /* line 9, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_footer.sass */
+  .footer__item {
+    margin: 0;
+    padding: 2rem;
+  }
+}
+
+/* line 20, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_footer.sass */
 .footer__link:link, .footer__link:visited {
   color: #777777;
   text-decoration: none;
@@ -807,7 +1160,7 @@ body {
   transition: all .3s;
 }
 
-/* line 24, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_footer.sass */
+/* line 30, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_footer.sass */
 .footer__link:hover {
   transform: rotate(5deg) scale(1.25);
   color: #BA8554;
@@ -831,9 +1184,10 @@ body {
   z-index: 200;
   text-align: center;
   cursor: pointer;
+  box-shadow: 0px 0.4rem 0.4rem rgba(0, 0, 0, 0.3);
 }
 
-/* line 16, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_navigation.sass */
+/* line 17, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_navigation.sass */
 .navigation__background {
   width: 6rem;
   height: 6rem;
@@ -847,7 +1201,7 @@ body {
   /* transform: scale(80) */
 }
 
-/* line 27, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_navigation.sass */
+/* line 28, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_navigation.sass */
 .navigation__nav {
   height: 100vh;
   position: fixed;
@@ -859,7 +1213,7 @@ body {
   transition: all 0.3s cubic-bezier(0.68, -0.6, 0.32, 1.6);
 }
 
-/* line 36, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_navigation.sass */
+/* line 37, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_navigation.sass */
 .navigation__list {
   position: absolute;
   top: 50%;
@@ -869,17 +1223,17 @@ body {
   width: 100%;
 }
 
-/* line 44, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_navigation.sass */
+/* line 45, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_navigation.sass */
 .navigation__item {
   text-align: center;
 }
 
-/* line 46, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_navigation.sass */
+/* line 47, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_navigation.sass */
 .navigation__item:not(:last-child) {
   margin-bottom: 5rem;
 }
 
-/* line 49, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_navigation.sass */
+/* line 50, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_navigation.sass */
 .navigation__link:link, .navigation__link:visited {
   font-size: 4rem;
   color: #ffffff;
@@ -893,39 +1247,39 @@ body {
   display: inline-block;
 }
 
-/* line 61, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_navigation.sass */
+/* line 62, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_navigation.sass */
 .navigation__link:hover, .navigation__link:active {
   background-position: 100%;
   color: #BA8554;
   transform: translateX(1rem);
 }
 
-/* line 65, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_navigation.sass */
+/* line 66, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_navigation.sass */
 .navigation__toggle:checked ~ .navigation__background {
   transform: scale(80);
 }
 
-/* line 67, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_navigation.sass */
+/* line 68, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_navigation.sass */
 .navigation__toggle:checked ~ .navigation__nav {
   width: 100%;
   opacity: 1;
 }
 
-/* line 71, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_navigation.sass */
+/* line 72, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_navigation.sass */
 .navigation__icon {
   position: relative;
-  margin-top: 37px;
+  margin-top: 3.7rem;
 }
 
-/* line 74, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_navigation.sass */
+/* line 75, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_navigation.sass */
 .navigation__icon, .navigation__icon::before, .navigation__icon::after {
-  width: 30px;
-  height: 2px;
+  width: 3rem;
+  height: .2rem;
   background: #000000;
   display: inline-block;
 }
 
-/* line 81, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_navigation.sass */
+/* line 82, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_navigation.sass */
 .navigation__icon::before, .navigation__icon::after {
   content: "";
   position: absolute;
@@ -933,38 +1287,28 @@ body {
   transition: all .2s;
 }
 
-/* line 87, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_navigation.sass */
+/* line 88, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_navigation.sass */
 .navigation__icon::before {
-  top: -8px;
+  top: -0.8rem;
 }
 
-/* line 89, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_navigation.sass */
+/* line 90, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_navigation.sass */
 .navigation__icon::after {
-  top: 8px;
-}
-
-/* line 92, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_navigation.sass */
-.navigation__button:hover .navigation__icon::before {
-  top: -10px;
+  top: .8rem;
 }
 
 /* line 94, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_navigation.sass */
-.navigation__button:hover .navigation__icon::after {
-  top: 10px;
-}
-
-/* line 97, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_navigation.sass */
 .navigation__toggle:checked + .navigation__button .navigation__icon {
   background: transparent;
 }
 
-/* line 99, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_navigation.sass */
+/* line 96, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_navigation.sass */
 .navigation__toggle:checked + .navigation__button .navigation__icon::before {
   top: 0;
   transform: rotate(135deg);
 }
 
-/* line 102, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_navigation.sass */
+/* line 99, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/layout/_navigation.sass */
 .navigation__toggle:checked + .navigation__button .navigation__icon::after {
   top: 0;
   transform: rotate(-135deg);
@@ -976,34 +1320,62 @@ body {
   margin-bottom: 20rem;
 }
 
-/* line 5, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/pages/_home.sass */
+@media only screen and (max-width: 1240px) {
+  /* line 1, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/pages/_home.sass */
+  .section-about {
+    margin-bottom: 13rem;
+  }
+}
+
+@media only screen and (max-width: 910px) {
+  /* line 1, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/pages/_home.sass */
+  .section-about {
+    margin-bottom: 40rem;
+  }
+}
+
+/* line 9, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/pages/_home.sass */
 .section-adventure {
   padding: 21rem 0;
   background: linear-gradient(90deg, rgba(186, 133, 84, 0.7), rgba(0, 0, 0, 0.7)), url(../img/section-adventure.jpg) center/cover no-repeat;
   transform: skewY(7deg);
 }
 
-/* line 9, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/pages/_home.sass */
+/* line 13, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/pages/_home.sass */
 .section-adventure > * {
   transform: skewY(-7deg);
 }
 
-/* line 12, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/pages/_home.sass */
+@media only screen and (max-width: 1240px) {
+  /* line 9, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/pages/_home.sass */
+  .section-adventure {
+    padding: 15rem 0;
+  }
+}
+
+/* line 18, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/pages/_home.sass */
 .section-tour {
   padding-top: 21rem;
   margin-bottom: 8rem;
 }
 
-/* line 16, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/pages/_home.sass */
+/* line 22, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/pages/_home.sass */
 .section-feedBack {
   padding: 8rem 0rem;
   position: relative;
 }
 
-/* line 20, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/pages/_home.sass */
+/* line 26, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/pages/_home.sass */
 .section-book {
   padding: 10rem;
   background: linear-gradient(90deg, #BA8554, #A14F03);
+}
+
+@media only screen and (max-width: 910px) {
+  /* line 26, ../../../../../../../../../../../../../Users/evgenijgolodov/Desktop/Prodject-balons 2/sass/pages/_home.sass */
+  .section-book {
+    marging: 4rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
